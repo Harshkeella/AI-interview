@@ -1,14 +1,12 @@
-🧠 AI Interview Project (React + Vite)
-The AI Interview project is a smart web-based platform built using React and Vite that simulates real-time job interviews. It leverages AI to ask dynamic interview questions, analyze user responses, and provide instant feedback to help users prepare for technical and HR rounds. The fast performance of Vite ensures a smooth user experience.
+# React + Vite
 
-Key Features:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔊 AI-generated interview questions (based on role/domain)
+Currently, two official plugins are available:
 
-🎙️ Voice input or text-based answers
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-📊 Real-time feedback and scoring
+## Expanding the ESLint configuration
 
-💡 Tips and suggestions to improve answers
-
-⚡ Fast, responsive UI powered by React + Vite
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
